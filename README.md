@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-using-flexboxt-UvE5-0Sin](https://www.frontendmentor.io/solutions/order-summary-component-using-flexboxt-UvE5-0Sin)
 - Live Site URL: [https://nakoyawilson.github.io/order-summary-component/](https://nakoyawilson.github.io/order-summary-component/)
 
 ## My process
