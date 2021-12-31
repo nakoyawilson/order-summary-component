@@ -33,7 +33,7 @@ body {
 
 .card {
   width: min(90%, 450px);
-  margin-inline: auto;
+  margin: auto;
   background-color: #fff;
   color: var(--desaturated-blue);
   border-radius: 20px;
@@ -147,6 +147,7 @@ body {
   }
 
   .card {
+    margin: 5rem auto;
     width: min(90%, 330px);
   }
 
