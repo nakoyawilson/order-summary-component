@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 :root {
   --pale-blue: hsl(225, 100%, 94%);
@@ -21,7 +21,7 @@ body {
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   min-height: 100vh;
   display: flex;
@@ -32,12 +32,13 @@ body {
 }
 
 .card {
-  width: 450px;
+  width: min(90%, 450px);
+  margin-inline: auto;
   background-color: #fff;
   color: var(--desaturated-blue);
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 .5rem 1rem rgba(31, 47, 86, .15);
+  box-shadow: 0 0.5rem 1rem rgba(31, 47, 86, 0.15);
 }
 
 .title {
@@ -82,7 +83,7 @@ body {
   text-decoration: underline;
   font-weight: 700;
   font-size: 0.9rem;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 
 .change-link:hover {
@@ -99,7 +100,7 @@ body {
   border: none;
   border-radius: 10px;
   font-weight: 900;
-  box-shadow: 0 .5rem 1rem rgba(31, 47, 86, .15);
+  box-shadow: 0 0.5rem 1rem rgba(31, 47, 86, 0.15);
   width: 80%;
   font-size: 0.9rem;
 }
@@ -136,7 +137,7 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   body {
     background-image: url(../images/pattern-background-mobile.svg);
   }
@@ -146,7 +147,7 @@ body {
   }
 
   .card {
-    width: 330px;
+    width: min(90%, 330px);
   }
 
   .hero-image {
@@ -170,5 +171,19 @@ body {
   .change-link {
     font-size: 0.8rem;
     margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .plan {
+    flex-direction: column;
+  }
+
+  .plan-icon {
+    margin-inline: auto;
+  }
+
+  .change-link {
+    margin-inline: auto;
   }
 }
