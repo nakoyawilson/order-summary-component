@@ -113,7 +113,6 @@ img {
   box-shadow: 0 1rem 2rem hsla(245, 75%, 52%, 0.2);
   width: 100%;
   font-size: 0.95rem;
-  letter-spacing: 0.02em;
 }
 
 .proceed:hover {
