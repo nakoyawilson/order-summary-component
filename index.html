@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/styles.css">
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
 
-  <title>Frontend Mentor | Order summary card</title>
-</head>
-
-<body>
-  <main>
-    <section class="card">
-      <div class="image">
-        <img src="images/illustration-hero.svg" alt="hero image" class="hero-image">
-      </div>
-      <div class="text-content">
-        <h1 class="title">Order Summary</h1>
-
-        <span class="main-text">You can now listen to millions of</span>
-        <span class="main-text">songs, audiobooks, and podcasts on</span>
-        <span class="main-text">any device anywhere you like!</span>
-        <div class="plan">
-          <div class="plan-icon">
-            <img src="images/icon-music.svg" alt="music icon">
-          </div>
-          <div class="plan-text">
-            <p class="plan-title">Annual Plan</p>
-            <p class="price">$59.99/year</p>
-          </div>
-          <div class="change">
-            <span class="change-link">Change</span>
-          </div>
+  <body>
+    <main>
+      <section class="card">
+        <div class="image">
+          <img
+            src="images/illustration-hero.svg"
+            alt="hero image"
+            class="hero-image"
+          />
         </div>
-        <button class="proceed">Proceed to Payment</button>
-        <p class="cancel">Cancel Order</p>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://nakoyawilson.netlify.app/">Nakoya Wilson</a>.
-    </div>
-  </footer>
-</body>
+        <div class="text-content">
+          <h1 class="title">Order Summary</h1>
 
+          <p class="main-text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="plan">
+            <div class="plan-icon">
+              <img src="images/icon-music.svg" alt="music icon" />
+            </div>
+            <div class="plan-text">
+              <p class="plan-title">Annual Plan</p>
+              <p class="price">$59.99/year</p>
+            </div>
+            <div class="change">
+              <span class="change-link">Change</span>
+            </div>
+          </div>
+          <button class="proceed">Proceed to Payment</button>
+          <p class="cancel">Cancel Order</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://nakoyawilson.netlify.app/">Nakoya Wilson</a>.
+      </div>
+    </footer>
+  </body>
 </html>
